@@ -22,28 +22,14 @@ A Java-based desktop application for tracking personal expenses with an intuitiv
 ### Installation
 
 1. Clone the repository
-```bash
-git clone [your-repo-url]
-cd expense-tracker
-```
-
-2. Compile the Java files
-```bash
-javac *.java
-```
-
-3. Run the application
-```bash
-java ExpenseTrackerGUI
-```
+2. Open the project in IDE
+3. Add the SQLite JDBC JAR to the project libraries
+4. Run `ExpenseTrackerGUI.java`
 
 **Note:** The SQLite database file (`expenses.db`) will be created automatically in the same directory on first run.
 
 ### Adding SQLite JDBC Driver (if needed)
 If SQLite JDBC is not included, download it from [SQLite JDBC](https://github.com/xerial/sqlite-jdbc) and add to classpath:
-```bash
-java -cp .:sqlite-jdbc-3.x.x.jar ExpenseTrackerGUI
-```
 
 ##  How to Use
 
